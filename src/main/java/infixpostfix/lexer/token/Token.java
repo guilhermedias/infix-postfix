@@ -10,6 +10,7 @@ public class Token {
 
     public enum Type{
         NUMBER,
-        BIN_OP
+        BIN_OP,
+        EMPTY_WORD
     }
 }
