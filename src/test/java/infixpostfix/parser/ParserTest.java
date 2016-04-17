@@ -46,7 +46,7 @@ public class ParserTest {
         assertThat(restNode.getBinOp().getLexeme())
                 .isEqualTo("+");
 
-        assertThat(restNode.getNumberNode().getLexeme())
+        assertThat(restNode.getNumber().getLexeme())
                 .isEqualTo("4");
 
         assertThat(restNode.getRest())

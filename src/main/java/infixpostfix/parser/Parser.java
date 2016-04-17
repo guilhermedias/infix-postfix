@@ -93,7 +93,7 @@ public class Parser {
     @Value
     public static class RestNode {
         private BinOpNode binOp;
-        private NumberNode numberNode;
+        private NumberNode number;
         private RestNode rest;
     }
 
