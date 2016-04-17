@@ -1,14 +1,14 @@
-package translator.lexer;
+package infixpostfix.lexer;
 
-import translator.lexer.token.Token;
+import infixpostfix.lexer.token.Token;
 import org.apache.commons.io.IOUtils;
 import org.junit.Test;
 
 import java.io.InputStream;
 import java.util.Collection;
 
-import static translator.lexer.token.Token.Type.BIN_OP;
-import static translator.lexer.token.Token.Type.NUMBER;
+import static infixpostfix.lexer.token.Token.Type.BIN_OP;
+import static infixpostfix.lexer.token.Token.Type.NUMBER;
 import static org.assertj.core.api.Assertions.assertThat;
 import static org.assertj.core.api.Assertions.catchThrowable;
 

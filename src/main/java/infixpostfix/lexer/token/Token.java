@@ -1,4 +1,4 @@
-package translator.lexer.token;
+package infixpostfix.lexer.token;
 
 import lombok.Value;
 

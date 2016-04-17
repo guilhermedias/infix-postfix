@@ -1,6 +1,6 @@
-package translator.lexer;
+package infixpostfix.lexer;
 
-import translator.lexer.token.Token;
+import infixpostfix.lexer.token.Token;
 
 import java.io.IOException;
 import java.io.InputStream;
@@ -9,8 +9,8 @@ import java.util.Collection;
 import java.util.List;
 
 import static java.lang.Character.isDigit;
-import static translator.lexer.token.Token.Type.BIN_OP;
-import static translator.lexer.token.Token.Type.NUMBER;
+import static infixpostfix.lexer.token.Token.Type.BIN_OP;
+import static infixpostfix.lexer.token.Token.Type.NUMBER;
 
 public class Lexer {
     public static Collection<Token> scan(InputStream input) {
